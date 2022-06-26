@@ -1,108 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Anton Kim</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Антон Ким. Рад со всеми познакомиться. Здесь вы можете познакомиться со мной, моими работами и проектами. А также написать мне или... оставить заявку."
+    />
+    <meta
+      name="keywords"
+      content="resume, cv, Anton Kim, фрилансер, сайт, визитка"
+    />
+    <title>Резюме: Антон Ким</title>
+    <link rel="shortcut icon" href="favicon/avatar.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-    </style>
   </head>
   <body>
     <div class="container">
       <div class="info">
-        <img
-          src="positive.jpg"
-          width="200"
-          alt="здесь мое фото"
-          class="avatar"
-        />
-        <div class="info-text">
+        <img src="img/pixel_me.jpg" alt="Антон Ким" class="avatar" />
+      </div>
+      <div class="info">
+        <article>
           <h1>Антон Ким</h1>
-          <p>Я основатель чата&nbsp<strong>"Cashflow"</strong></p>
-          <p>
-            Я люблю путешествовать, знакомиться с новыми людьми и местами, создаю сообщество
-            амбициозных предпринимателей.
-          </p>
-          <h4>Мои социальные сети</h4>
-          <a href="https://www.instagram.com/ant.imp/" target="_blank"
-            >Instagram</a
-          >
-          |
-          <a href="https://t.me/akimimp" target="_blank">Telegram</a>
-        </div>
+          <div>
+            Однажды
+            <span class="font-weight">попробывал написать сайт...</span> Теперь
+            по уши в коде) <span class="font-weight">Вот так!</span>
+          </div>
+          <div>
+            Большой фанат
+            <span class="text-style">пеших прогулок и чиловых мест.</span>
+          </div>
+        </article>
       </div>
 
-      <div class="card bg-green">
-        <h2>Мои хобби</h2>
-        <ol class="list">
+      <div class="social">
+        <h4>Мои социальные сети</h4>
+        <a href="https://github.com/kimano94">GitHub</a>
+        |
+        <a href="https://vk.com/id224646409">Vkontakte</a>
+      </div>
+
+      <div class="card hobbie">
+        <h3>Мои увлечения</h3>
+        <ul class="list">
           <li>Путешествие</li>
-          <li>Блогинг</li>
-          <li>Чтение книг</li>
-        </ol>
-      </div>
-
-      <div class="card bg-yellow">
-        <h2>Мои курсы</h2>
-        <table class="table">
-          <tr>
-            <td>Курс</td>
-            <td>Год</td>
-            <td>Достижение и результат</td>
-          </tr>
-          <tr>
-            <td>Финансовая перезагрузка</td>
-            <td>2020</td>
-            <td>Финансовая безопасность</td>
-          </tr>
-          <tr>
-            <td>Клуб миллионеров Москва 30</td>
-            <td>2020</td>
-            <td>Финансовая безопасность</td>
-          </tr>
-          <tr>
-            <td>Клуб миллионеров Москва 31</td>
-            <td>2021</td>
-            <td>Финансовая стабильность</td>
-          </tr>
-          <tr>
-            <td>Большие денежные игры</td>
-            <td>2021</td>
-            <td>Финансовая стабильность</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="card bg-red">
-        <h2>Телеграм чаты</h2>
-        <ul class="link-list">
-          <li><a href="telegram.html" target="_blank">Cashflow</a></li>
+          <li>Создание сайтов</li>
+          <li>Коучинг</li>
         </ul>
       </div>
 
+      <div class="card project">
+        <h3>Мои работы</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Сайт</th>
+              <th>Используемые технологии</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>7-zone.ru</td>
+              <td>wordpress, html, css, javascript</td>
+            </tr>
+            <tr>
+              <td>cdek-nara.ru</td>
+              <td>wordpress, html, css, javascript</td>
+            </tr>
+            <tr>
+              <td>Resume</td>
+              <td>html, css</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div class="contact">
-        <h2>Связаться со мной</h2>
-        <form action="/">
+        <h3>Связаться со мной</h3>
+        <form action="#">
           <div class="row">
             <div class="form-group">
-              <label for="name">Ваше имя:</label>
-              <input type="text" id="name" placeholder="Введите ваше имя" />
+              <label for="">Ваше имя</label>
+              <input type="text" name="" id="" placeholder="Введите имя" />
             </div>
-
             <div class="form-group">
-              <label for="email">Ваше имя:</label>
-              <input type="email" id="email" placeholder="Введите email..." />
+              <label for="">Ваш email</label>
+              <input type="email" name="" id="" placeholder="Введите email" />
             </div>
           </div>
 
           <div class="form-group">
-            <label for="text">Ваше сообщение</label>
-            <textarea id="text" cols="15" rows="2" placeholder="Ваше сообщение"></textarea>
+            <label for="">Ваше сообщение</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Введите сообщение"
+            ></textarea>
           </div>
 
-          <input type="submit" value="Связаться" class="btn" />
+          <button type="submit" class="btn">Отправить!</button>
         </form>
       </div>
-    </h>
+    </div>
   </body>
 </html>
